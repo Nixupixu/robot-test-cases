@@ -1,2 +1,2 @@
 # robot-test-cases
-Robot Framework tests written while doing internship at Population Register Centre
+Robot Framework tests written while doing an internship at Population Register Centre
