@@ -1,0 +1,16 @@
+*** Settings ***
+Library				Selenium2Library
+Suite Setup			Open And Maximize Browser
+Suite Teardown			Close All Browsers
+
+*** Variables ***
+${STARTPAGE}
+${BROWSER}			chrome
+
+*** Test Cases ***
+
+
+*** Keywords ***
+Open And Maximize Browser
+	Open Browser		${STARTPAGE}	${BROWSER}
+	Maximize Browser Window
